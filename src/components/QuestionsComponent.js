@@ -16,7 +16,7 @@ const QuestionsComponent = ({ category }) => {
                 const data = await response.json();
                 console.log("Data primită:", data); // Afișează datele primite pentru debug
 
-                // Verifică dacă data.categories este definit și nu este gol
+                // Verific dacă data.categories este definit și nu prezinta elemente care sa fie goale
                 if (data.categories && data.categories.length > 0) {
                     const geoCategory = data.categories.find((cat) => cat.name === "Geografie");
                     if (geoCategory) {
