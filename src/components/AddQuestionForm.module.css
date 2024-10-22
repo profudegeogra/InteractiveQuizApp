@@ -1,10 +1,10 @@
 /* AddQuestionForm.module.css */
 
 .container {
-    max-width: 600px; /* Lățimea maximă a formularului */
+    max-width: 800px; /* Lățimea maximă a formularului */
     margin: 0 auto; /* Centrarea formularului */
     padding: 20px;
-    border: 1px solid #ddd; /* Contur ușor pentru formular */
+    border: 3px solid #ddd; /* Contur ușor pentru formular */
     border-radius: 8px; /* Colțuri rotunjite */
     background-color: #f9f9f9; /* Fundal deschis pentru formular */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Umbră pentru a da profunzime */
