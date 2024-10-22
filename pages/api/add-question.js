@@ -9,8 +9,9 @@ export default function handler(req, res) {
             if (err) {
                 return res.status(500).json({ error: 'Unable to read questions file' });
             }
-
+// Această linie converteste un string JSON (stocat în variabila data) într-un obiect JavaScript. 
             const jsonData = JSON.parse(data);
+            //datele JSON trimise în cererea POST
             const newQuestion = req.body;
 
             // Găsește categoria în care să adauge întrebarea
