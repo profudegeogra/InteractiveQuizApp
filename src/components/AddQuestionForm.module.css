@@ -20,13 +20,13 @@
 .input,
 .select {
     width: 100%; /* Lățime completă pentru inputuri */
-    padding: 10px; /* Spațiu interior */
+    padding: 8px; /* Spațiu interior */
     margin-bottom: 15px; /* Spațiu între inputuri */
     border: 1px solid #ccc; /* Contur pentru inputuri */
-    border-radius: 4px; /* Colțuri rotunjite */
+    border-radius: 6px; /* Colțuri rotunjite */
     font-size: 16px; /* Dimensiunea textului */
     box-sizing: border-box; /* Include padding în lățime */
-    transition: border-color 0.3s; /* Tranziție lină pentru schimbarea culorii conturului */
+    transition: border-color 0.5s; /* Tranziție lină pentru schimbarea culorii conturului */
 }
 
 .input:focus,
