@@ -1,0 +1,45 @@
+/* src/app/home/home.module.css */
+
+.cssHeading{
+font-size: 40px;
+text-align: center;
+color:rgb(189, 145, 145);
+background-color: bisque;
+width: 600px;
+}
+
+.container {
+    background-image: url('https://img.freepik.com/free-vector/three-students-study-geography-class_1308-531.jpg'); /* Calea către imagine */
+    background-size: cover; /* Acoperă întreaga secțiune */
+    background-position: center; /* Centrează imaginea */
+    padding: 20px;
+    min-height: 100vh; /* Setează o înălțime minimă pentru a acoperi întreaga pagină */
+    background-color: lightblue; /* Fallback în cazul în care imaginea nu se încarcă */
+}
+
+
+.cssText {
+    background-color: lightcoral; /* Un alt stil pentru specialDiv */
+    padding: 15px;
+    border-radius: 8px; /* Colțuri rotunjite */
+    color: white; /* Text alb */
+    margin-top: 20px; /* Spațiu între div-uri */
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+
+.li{   background-color: #f0f0f0; /* Fundal gri deschis */
+    color: #333; /* Culoarea textului */
+    padding: 10px 15px; /* Padding pentru a da spațiu în interiorul elementului */
+    margin: 15px 0; /* Margine între elemente */
+    border: 1px solid #ccc; /* Bordură gri deschis */
+    border-radius: 5px; /* Colțuri rotunjite */
+    transition: background-color 0.3s; /* Animație la schimbarea fundalului */
+cursor:pointer;
+}
+.li:hover {
+    background-color: greenyellow; /* Fundal galben-verzui */
+    cursor: pointer; /* Cursor de tip pointer la hover */
+}

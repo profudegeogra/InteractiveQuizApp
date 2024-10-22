@@ -1,0 +1,40 @@
+
+/* src/app/categories/categories.module.css */
+.container {
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+body{
+
+background-color: lightcoral;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+
+.view-categories {
+    display: inline-block; /* Face linkul să se comporte ca un bloc */
+    background-color: #0070f3; /* Fundal albastru */
+    color: white; /* Culoarea textului alb */
+    padding: 10px 20px; /* Padding pentru a da spațiu în interior */
+    text-decoration: none; /* Elimină sublinierea implicită */
+    border-radius: 5px; /* Colțuri rotunjite */
+    transition: background-color 0.3s, transform 0.2s; /* Animație la hover */
+}

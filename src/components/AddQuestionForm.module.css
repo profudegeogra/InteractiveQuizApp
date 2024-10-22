@@ -1,0 +1,51 @@
+/* AddQuestionForm.module.css */
+
+.container {
+    max-width: 600px; /* Lățimea maximă a formularului */
+    margin: 0 auto; /* Centrarea formularului */
+    padding: 20px;
+    border: 1px solid #ddd; /* Contur ușor pentru formular */
+    border-radius: 8px; /* Colțuri rotunjite */
+    background-color: #f9f9f9; /* Fundal deschis pentru formular */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Umbră pentru a da profunzime */
+}
+
+.label {
+    display: block; /* Afișare pe un rând nou */
+    margin-bottom: 5px; /* Spațiu sub etichetă */
+    font-weight: bold; /* Text îngroșat pentru etichetă */
+    color: #333; /* Culoare text */
+}
+
+.input,
+.select {
+    width: 100%; /* Lățime completă pentru inputuri */
+    padding: 10px; /* Spațiu interior */
+    margin-bottom: 15px; /* Spațiu între inputuri */
+    border: 1px solid #ccc; /* Contur pentru inputuri */
+    border-radius: 4px; /* Colțuri rotunjite */
+    font-size: 16px; /* Dimensiunea textului */
+    box-sizing: border-box; /* Include padding în lățime */
+    transition: border-color 0.3s; /* Tranziție lină pentru schimbarea culorii conturului */
+}
+
+.input:focus,
+.select:focus {
+    border-color: #0070f3; /* Culoarea conturului la focus */
+    outline: none; /* Elimină conturul implicit */
+}
+
+.button {
+    background-color: #0070f3; /* Culoarea de fundal pentru buton */
+    color: white; /* Culoarea textului butonului */
+    border: none; /* Fără contur */
+    padding: 10px 15px; /* Spațiu interior */
+    border-radius: 4px; /* Colțuri rotunjite */
+    font-size: 16px; /* Dimensiunea textului */
+    cursor: pointer; /* Pointer pentru cursor */
+    transition: background-color 0.3s; /* Tranziție lină pentru schimbarea culorii de fundal */
+}
+
+.button:hover {
+    background-color: #005bb5; /* Culoarea de fundal la hover */
+}

@@ -1,0 +1,53 @@
+/* src/app/home/home.module.css */
+.container {
+    background-image: url('https://t3.ftcdn.net/jpg/02/85/48/82/360_F_285488214_EfavCa6EBdUomtsM7648knFasicIISwM.jpg'); /* Calea către imagine */
+    background-size: cover; /* Acoperă întreaga secțiune */
+    background-position: center; /* Centrează imaginea */
+    padding: 20px;
+    min-height: 100vh; /* Setează o înălțime minimă pentru a acoperi întreaga pagină */
+    background-color: lightblue; /* Fallback în cazul în care imaginea nu se încarcă */
+}
+
+
+
+.cssHeading{
+    font-size: 40px;
+    text-align: center;
+    color:rgb(189, 145, 145);
+    background-color: bisque;
+    width: 600px;
+    }
+
+.container {
+    background-image: url('https://www.howtolearn.com/wp-content/uploads/2023/02/playing-math-on-computer-1024x757.jpg'); /* Calea către imagine */
+    background-size: cover; /* Acoperă întreaga secțiune */
+    background-position: center; /* Centrează imaginea */
+    padding: 20px;
+    min-height: 100vh; /* Setează o înălțime minimă pentru a acoperi întreaga pagină */
+    background-color: lightblue; /* Fallback în cazul în care imaginea nu se încarcă */
+}
+
+.cssText {
+    background-color: rgb(178, 155, 155); /* Un alt stil pentru specialDiv */
+    padding: 15px;
+    border-radius: 8px; /* Colțuri rotunjite */
+    color: white; /* Text alb */
+    margin-top: 20px; /* Spațiu între div-uri */
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.li{   background-color: #908888; /* Fundal gri deschis */
+    color: #333; /* Culoarea textului */
+    padding: 10px 15px; /* Padding pentru a da spațiu în interiorul elementului */
+    margin: 15px 0; /* Margine între elemente */
+    border: 1px solid #957373; /* Bordură gri deschis */
+    border-radius: 5px; /* Colțuri rotunjite */
+    transition: background-color 0.3s; /* Animație la schimbarea fundalului */
+cursor:pointer;
+}
+.li:hover {
+    background-color: greenyellow; /* Fundal galben-verzui */
+    cursor: pointer; /* Cursor de tip pointer la hover */
+}

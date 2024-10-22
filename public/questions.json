@@ -1,0 +1,187 @@
+{
+  "categories": [
+    {
+      "name": "Geografie",
+      "quizzes": [
+        {
+          "questions": [
+            {
+              "id": 1,
+              "question": "Care este cel mai înalt munte din lume?",
+              "answers": [
+                "Evereest",
+                "K2",
+                "Kangchenjunga"
+              ],
+              "correctAnswer": "Everest"
+            },
+            {
+              "id": 2,
+              "question": "Care este cel mai lung fluviu din lume?",
+              "answers": [
+                "Amazon",
+                "Nil",
+                "Yangtze"
+              ],
+              "correctAnswer": "Nil"
+            },
+            {
+              "id": 3,
+              "question": "Care este capitala Franței?",
+              "answers": [
+                "Paris",
+                "Lyon",
+                "Marseille"
+              ],
+              "correctAnswer": "Paris"
+            },
+            {
+              "question": "nh treetr rt ",
+              "answers": [
+                "tret",
+                "tert",
+                "et",
+                "ty"
+              ],
+              "correctAnswer": "ty",
+              "category": "Geografie"
+            },
+            {
+              "question": "Cum se numeste jsonul?",
+              "answers": [
+                "ergf4",
+                "rg43gttr4",
+                "gtreg",
+                "ereg"
+              ],
+              "correctAnswer": "ergf4",
+              "category": "Geografie"
+            },
+            {
+              "question": "Cum s enumeste  singurul fluviu din Romania",
+              "answers": [
+                "Olt",
+                "Jiu",
+                "Prut",
+                "Dunare"
+              ],
+              "correctAnswer": "Dunare",
+              "category": "Geografie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Istorie",
+      "quizzes": [
+        {
+          "questions": [
+            {
+              "id": 1,
+              "question": "În ce an a început Primul Război Mondial?",
+              "answers": [
+                "1912",
+                "1914",
+                "1918"
+              ],
+              "correctAnswer": "1914"
+            },
+            {
+              "id": 2,
+              "question": "Cine a fost primul împărat al Imperiului Roman?",
+              "answers": [
+                "Cezar",
+                "Augustus",
+                "Nero"
+              ],
+              "correctAnswer": "Augustus"
+            },
+            {
+              "id": 3,
+              "question": "Care a fost numele navei pe care a călătorit Cristofor Columb în 1492?",
+              "answers": [
+                "Santa Maria",
+                "Mayflower",
+                "HMS Victory"
+              ],
+              "correctAnswer": "Santa Maria"
+            },
+            {
+              "question": "Stefan cel Mare  se numea asa pentru ca era",
+              "answers": [
+                "inalt",
+                "scund",
+                "mare",
+                "un urias"
+              ],
+              "correctAnswer": "mare",
+              "category": "Istorie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matematica",
+      "quizzes": [
+        {
+          "questions": [
+            {
+              "id": 1,
+              "question": "Cât este 5 + 9?",
+              "answers": [
+                "10",
+                "12",
+                "14"
+              ],
+              "correctAnswer": "14"
+            },
+            {
+              "id": 2,
+              "question": "Care este pătratul numărului 2?",
+              "answers": [
+                "36",
+                "4",
+                "30"
+              ],
+              "correctAnswer": "4"
+            },
+            {
+              "id": 3,
+              "question": "Cât este 15 ÷ 3?",
+              "answers": [
+                "5",
+                "7",
+                "4"
+              ],
+              "correctAnswer": "5"
+            },
+            {
+              "question": "Cat face  4*3",
+              "answers": [
+                "13",
+                "12",
+                "3",
+                "3"
+              ],
+              "correctAnswer": "12",
+              "category": "Matematica"
+            },
+            {
+              "question": "Cat face 1+9",
+              "answers": [
+                "4",
+                "5",
+                "7",
+                "10"
+              ],
+              "correctAnswer": "10",
+              "category": "Matematica"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

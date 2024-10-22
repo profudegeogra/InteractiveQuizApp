@@ -1,0 +1,43 @@
+/* src/app/categories/categorii.module.css */
+.container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundal deschis */
+}
+
+
+
+.ul {
+    list-style-type: none; /* Elimină punctele din listă */
+    padding: 0; /* Elimină padding-ul */
+}
+
+.li {
+    margin: 10px auto; /* Spațiu sus-jos și auto pentru centrare stânga-dreapta */
+
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+
+    padding: 10px;
+
+
+}
+
+
+.li :hover{
+
+    background-color: antiquewhite;
+}
+.a {
+    text-decoration: none; /* Elimină sublinierea */
+    color: #0070f3; /* Culoarea link-ului */
+    padding: 10px; /* Padding pentru link */
+    border: 1px solid #0070f3; /* Bordură pentru link */
+    border-radius: 5px; /* Colțuri rotunjite */
+    transition: background-color 0.3s, color 0.3s; /* Tranziție pentru hover */
+}
+
+.a:hover {
+    background-color: #0070f3; /* Fundal albastru la hover */
+    color: white; /* Text alb la hover */
+}
